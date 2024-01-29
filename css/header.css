@@ -9,7 +9,7 @@
 
 .imgLogo {
     width:30px;
-    height:24px;
+    height:30px;
     border-radius: 50%;
 }
 
@@ -19,10 +19,26 @@
     top: 0;
     padding: 10px 16px;
     backdrop-filter: blur(2px);
-    color: #f1f1f1; 
+    color:wheat; 
     z-index: 2;
     font:bold;
+    size: 24px;
 
+}
+
+
+.buttonHeader {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color:chocolate;
+    border-radius: 6px;
+    
+}
+
+.buttonHeader:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 
@@ -49,6 +65,10 @@ b {
     color:chocolate;
     size: 20px;
     
+}
+
+b:hover {
+    color: black;
 }
 
 a:hover {

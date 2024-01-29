@@ -1,0 +1,23 @@
+body {
+
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(193, 155, 155);
+}
+
+#container3D {
+    background-color: antiquewhite;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTest {
+    height: 350px;
+}
+
+
+
+
+

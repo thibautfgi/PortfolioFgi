@@ -1,0 +1,12 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    size: 16px;
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("/Project2/fonts/JosephinSans/JosefinSans-VariableFont_wght.ttf") format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}

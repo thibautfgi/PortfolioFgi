@@ -1,0 +1,60 @@
+.containerMain {
+    margin-top: 1%;
+    
+}
+
+.logo {
+    text-decoration: none;
+    display: inline;
+}
+
+.imgLogo {
+    width:30px;
+    height:24px;
+    border-radius: 50%;
+}
+
+.myHeader {
+    padding: 10px 16px;
+    backdrop-filter: blur(2px);
+    color: #f1f1f1;
+    z-index: 2; 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+
+
+    
+  }
+
+
+  
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+
+.listHeader {
+
+    margin: 1%;
+    display: inline;
+    text-decoration: none;
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

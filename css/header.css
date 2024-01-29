@@ -1,5 +1,4 @@
 .containerMain {
-    margin-top: 1%;
     
 }
 
@@ -15,26 +14,17 @@
 }
 
 .myHeader {
+    margin: 6px;
+    position: sticky;
+    top: 0;
     padding: 10px 16px;
     backdrop-filter: blur(2px);
-    color: #f1f1f1;
-    z-index: 2; 
+    color: #f1f1f1; 
+    z-index: 2;
+    font:bold;
+
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-
-
-    
-  }
-
-
-  
-.sticky + .content {
-    padding-top: 102px;
-  }
 
 
 .listHeader {
@@ -42,11 +32,23 @@
     margin: 1%;
     display: inline;
     text-decoration: none;
+    
 }
 
 a {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
+    color:chocolate;
+    size: 20px;
+    
+}
+
+b {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color:chocolate;
+    size: 20px;
+    
 }
 
 a:hover {
@@ -57,4 +59,17 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("/Project2/fonts/JosephinSans/JosefinSans-VariableFont_wght.ttf") format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
 }

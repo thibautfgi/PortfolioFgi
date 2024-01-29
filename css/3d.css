@@ -1,11 +1,7 @@
-body {
 
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(193, 155, 155);
-}
 
 #container3D {
+    position: relative;
     background-color: antiquewhite;
     height: 100%; 
     display: flex;
@@ -14,7 +10,15 @@ body {
 }
 
 .containerTest {
-    height: 350px;
+    height: 300px;
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("/Project2/fonts/JosephinSans/JosefinSans-VariableFont_wght.ttf") format('woff2'); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
 }
 
 

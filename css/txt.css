@@ -1,12 +1,14 @@
 body {
     font-family: 'Josefin Sans', sans-serif;
-    size: 16px;
+    background-color: antiquewhite;
+    size: 18px;
+    text-align: left;
 }
 
 
 @font-face {
     font-family: 'Josefin Sans';
-    src: url("/Project2/fonts/JosephinSans/JosefinSans-VariableFont_wght.ttf") format('woff2'); /* Modern Browsers */
+    src: url("/fonts/JosephinSans/JosefinSans-VariableFont_wght.ttf");
     font-weight: normal;
     font-style: normal;
 }

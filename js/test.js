@@ -1,21 +1,39 @@
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {
-    stickyHeader();
-  };
-  
-  // Get the header
-  var header = document.querySelector(".myHeader");
-  
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the header element
+  var header = document.getElementById("stickyHeader");
+
   // Get the offset position of the header
-  var sticky = header.offsetTop;
-  
-  // Add the sticky class to the header when you reach its scroll position.
-  // Remove "sticky" when you leave the scroll position
-  function stickyHeader() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
-    }
-  }
-  
+  var headerOffset = header.offsetTop;
+
+  // Add a scroll event listener
+  window.addEventListener("scroll", function () {
+      // Check if the scroll position is greater than or equal to the header offset
+      if (window.pageYOffset >= headerOffset) {
+          // Add a class to make the header sticky
+          header.classList.add("sticky");
+      } else {
+          // Remove the class if the scroll position is less than the header offset
+          header.classList.remove("sticky");
+      }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the header element
+  var header = document.getElementById("stickytest");
+
+  // Get the offset position of the header
+  var headerOffset = header.offsetTop;
+
+  // Add a scroll event listener
+  window.addEventListener("scroll", function () {
+      // Check if the scroll position is greater than or equal to the header offset
+      if (window.pageYOffset >= headerOffset) {
+          // Add a class to make the header sticky
+          header.classList.add("sticky");
+      } else {
+          // Remove the class if the scroll position is less than the header offset
+          header.classList.remove("sticky");
+      }
+  });
+});

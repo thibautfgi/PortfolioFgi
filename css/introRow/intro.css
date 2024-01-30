@@ -1,0 +1,42 @@
+.msgIntro {
+    background-color: wheat;
+    padding-top: 5px;
+    border-radius: 6px;
+    size: 16px;
+
+}
+
+
+.containerIntro {
+
+    margin-bottom: 50px;
+  }
+  
+
+
+
+#myImg {
+    border: solid;
+    border-radius: 50%;
+    border-color: chocolate;
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+}
+
+.introRow {
+    margin-top: 30px;
+}
+
+#myImgLeft {
+    
+    border: solid;
+    border-radius: 50%;
+    border-color: chocolate;
+    height: 125px;
+    width: 125px;
+
+}

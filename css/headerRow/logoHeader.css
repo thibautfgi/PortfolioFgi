@@ -1,0 +1,10 @@
+.logo {
+    text-decoration: none;
+    display: inline;
+}
+
+.imgLogo {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}

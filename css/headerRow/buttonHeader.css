@@ -1,0 +1,13 @@
+.buttonHeader {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color:chocolate;
+    border-radius: 6px;
+    
+}
+
+.buttonHeader:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}

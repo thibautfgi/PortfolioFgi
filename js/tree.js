@@ -118,15 +118,23 @@ scene.add(directionalLight3);
 
 
 // Resize
-window.addEventListener("resize", () => {
+function updateThing() {
   const thresholdWidth = 1000; // in px
 
   if (window.innerWidth < thresholdWidth) {
     renderer.setSize(450, 150);
   } else {
+    
     renderer.setSize(650, 300);
   }
-});
+};
+
+// Call the function on page load
+updateThing();
+
+// Add the event listener for window resize
+window.addEventListener("resize", updateThing)
+
 
 // Animation
 const animate = () => {

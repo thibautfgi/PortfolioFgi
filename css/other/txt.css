@@ -32,3 +32,8 @@ myTxtWork {
     text-decoration: underline;
 }
 
+smallTitle {
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}

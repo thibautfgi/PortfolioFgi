@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
       } else {
           // Remove the class if the scroll position is less than the header offset
           header.classList.remove("sticky");
+          
       }
   });
 });

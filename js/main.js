@@ -2,6 +2,8 @@ const myImgTest = document.getElementById("myImg");
 const majtxt = document.querySelector('myTxtMaj'); // Assuming myTxtMaj is an element with this tag
 const txt = document.querySelector('myTxt'); // Assuming myTxt is an element with this tag
 
+const git = document.querySelector('buttonGit');
+
 function updateStyles() {
     const thresholdWidth = 1000; // in px
 
@@ -28,3 +30,13 @@ updateStyles();
 
 // Add the event listener for window resize
 window.addEventListener("resize", updateStyles)
+
+gitButton.addEventListener('mouseover', function() {
+    // Add the new class when the button is hovered
+    git.classList.add('hover-class');
+});
+
+gitButton.addEventListener('mouseout', function() {
+    // Remove the new class when the hover ends
+   git.classList.remove('hover-class');
+});

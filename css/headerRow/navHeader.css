@@ -33,20 +33,19 @@ a {
     
 }
 
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+
 b {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     color:chocolate;
     size: 20px;
     
-}
-
-b:hover {
-    color: black;
-}
-
-a:hover {
-    color: black;
 }
 
 ul {
@@ -56,7 +55,9 @@ ul {
 }
 
 
-
+.hover-class {
+    color: black;
+}
 
 
 

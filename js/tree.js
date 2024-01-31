@@ -122,9 +122,14 @@ function updateThing() {
   const thresholdWidth = 1000; // in px
 
   if (window.innerWidth < thresholdWidth) {
-    renderer.setSize(450, 150);
+    camera.position.y = 3;
+camera.position.x = 0;
+camera.position.z = 4;
+    renderer.setSize(350, 200);
   } else {
-    
+    camera.position.y = 3;
+camera.position.x = 0;
+camera.position.z = 4;
     renderer.setSize(650, 300);
   }
 };

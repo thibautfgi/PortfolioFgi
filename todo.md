@@ -10,4 +10,4 @@ fermer le txt en bloc? = <p>thing
 
 trouver un moyen de rendre l'image noir
 
-comment ce passe la gestion de page? demander
+comment ce passe la gestion de page? demander exemple la reactualisation de la page = tree js

@@ -125,12 +125,12 @@ function updateThing() {
     camera.position.y = 3;
 camera.position.x = 0;
 camera.position.z = 4;
-    renderer.setSize(350, 200);
+    renderer.setSize(250, 250); // en % maybe?
   } else {
     camera.position.y = 3;
 camera.position.x = 0;
 camera.position.z = 4;
-    renderer.setSize(650, 300);
+    renderer.setSize(550, 300);
   }
 };
 
@@ -147,7 +147,7 @@ const animate = () => {
 
   // Rotate the model (if loaded)
   if (model) {
-    model.rotation.y += 0.001;
+    model.rotation.y += 0.002;
   }
 
   renderer.render(scene, camera);

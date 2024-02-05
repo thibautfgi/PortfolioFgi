@@ -48,6 +48,32 @@ b {
     
 }
 
+c {
+    color: rgb(113, 113, 214);
+    position: initial;
+}
+
+c:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
+
+d {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color:chocolate;
+    size: 20px;
+    
+}
+
+d :hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+}
+
 ul {
     list-style: none;
     padding: 0;

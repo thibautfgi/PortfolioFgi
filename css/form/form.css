@@ -1,0 +1,31 @@
+.formAbout {
+    width: 100%;
+    border-radius: 6px;
+    margin: 5px;
+    border: none;
+    outline: none;
+}
+
+.formAboutMsg {
+    height: 100px;
+    width: 100%;
+    border: none;
+    align-items: start;
+    border-radius: 6px;
+    padding: 6px;
+    margin: 5px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    resize : none;
+    overflow: scroll;
+    outline: none;
+}
+
+
+
+
+
+
+.formAboutMsg::-webkit-scrollbar{
+    width: 0px;
+}

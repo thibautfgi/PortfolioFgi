@@ -13,9 +13,11 @@
     <link href="/css/introRow/intro.css" rel="stylesheet">
     <link href="/css/introRow/myWork.css" rel="stylesheet">
     
+    <link href="/css/headerRow/dropdown.css" rel="stylesheet">
+    
     <link href="/css/other/colors.css" rel="stylesheet">
     <link href="/css/other/txt.css" rel="stylesheet">
-
+    <link href="/css/footer/footer.css" rel="stylesheet">
 
 
     <script type="importmap">
@@ -44,28 +46,49 @@
         <div class="row myHeader">
 
                   
-            <div class="col-4 align-items-center text-end pt-2">
+            <div class="col-6 col-md-4 align-items-center pt-2">
                 <li class="logo"><b href="">
                     <img src="/tools/img/Wanderer.jpg" alt="Logo" class="imgLogo">
-                    Figueira Thibaut
+                    <logoTitle>Figueira T.</logoTitle>
+                    <logoTitleHide> Figueira Thibaut</logoTitleHide>
                 </b> </li>
             </div>     
         
-            <div class="col-4 align-items-center text-center pt-2 navContainer">          
-                <ul>
-                    <li class="listHeader"><a href="/html/index.html">Home</a></li>
-                    <li class="listHeader"><a href="/html/work.html">Work</a></li>
-                    <li class="listHeader"><a href="">Photo</a></li>
-                    <li class="listHeader"><a href="https://github.com/justachips">
-                        <i class="fa-brands fa-square-github buttonGit" style="color: chocolate;"></i>
-                        GitHub
-                    </a></li>
-                    
-                </ul> 
+            <div class="col-4 align-items-center text-center pt-2 navContainer">
+                
+                    <ul>
+                        <li class="listHeader"><a href="/html/index.html">Home</a></li>
+                        <li class="listHeader"><a href="/html/work.html">Work</a></li>
+                        <li class="listHeader"><a href="">About</a></li>
+                        <li class="listHeader"><a href="">Photo</a></li>
+                        <li class="listHeader"><a href="https://github.com/justachips">
+                            <i class="fa-brands fa-square-github buttonGit" style="color: chocolate;"></i>
+                            GitHub
+                        </a></li>
+                        
+                    </ul>
+                        
+                 
             </div>
         
-            <div class="col-4 align-items-center text-start">    
-                <button class="buttonHeader"><i class="fa-solid fa-moon" style="color: antiquewhite;"></i></button>
+            <div class="col-6 col-md-4">
+                <div class="buttonContainer">
+                    <button class="buttonHeader"><i class="fa-solid fa-moon" style="color: antiquewhite;"></i></button>
+                    <div class="buttonHiden">
+                        <div class="dropdown">
+                            <button class="buttonNav"><i class="fa-solid fa-bars" style="color: antiquewhite;"></i></button>
+                            <div class="dropdown-content">
+                                <a href="/html/index.html">Home</a>
+                                <a href="/html/work.html">Work</a>
+                                <a href="#">About</a>
+                                <a href="#">Photo</a>
+                                <a href="https://github.com/justachips">GitHub</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>    
+                </buttonContainer> 
+                
             </div>
             
         </div> <!-- Header row END -->
@@ -104,7 +127,7 @@
         
                         <div class="col-12 col-md-4 p-3 ">
                             <div class="msgIntro">
-                                Hello World, i am a computer scientists from France !
+                                <introTxtCadre>Hello World, i am a computer scientists from France !</introTxtCadre>
                             </div>
                         </div>
         
@@ -140,7 +163,7 @@
                                             <myTxtMaj >Figueira Thibaut</myTxtMaj>
                                         </div>
                                         <div class="col">
-                                            <myTxt >Student, mountain lover, artist, runner.</myTxt>
+                                            <myTxt >Student, mountain lover, 5B+, artist, runner.</myTxt>
                                         </div>
                                     </div>
 
@@ -240,8 +263,39 @@
                             
                         </div>
                     
-                    </div> <!-- Web row END -->
+                    </div> <!-- WEB row END -->
 
+     
+                     <!-- Footer row Start --> 
+                     <div class="pt-2 text-center">
+                        <button class="buttonIntro"> About me ></button>
+                    </div>
+
+
+                    <div class="row text-center pt-2 ">
+
+                        <div class="col-3 ">
+                            
+                        </div>
+        
+        
+                        <div class="col-12 col-md-6 ">
+                            <div class="footer">
+                                 
+                               
+
+
+
+                                © 2024 Figueira Thibaut. all right reserved.
+                            </div>
+                        </div>
+        
+                        <div class="col-3 ">
+                            
+                        </div>
+                    
+                    </div> <!-- Footer row END -->
+        
 
 
             

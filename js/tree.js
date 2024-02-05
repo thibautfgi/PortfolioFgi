@@ -119,7 +119,7 @@ scene.add(directionalLight3);
 
 // Resize
 function updateThing() {
-  const thresholdWidth = 1000; // in px
+  const thresholdWidth = 768; // in px
 
   if (window.innerWidth < thresholdWidth) {
     camera.position.y = 3;

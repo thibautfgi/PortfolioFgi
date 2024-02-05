@@ -46,7 +46,7 @@ cardTxt {
     position: absolute;
     opacity: 0;
     transition: opacity 1.0s ease-in-out;
-    text-shadow: 0 0 2px #070202;
+    text-shadow: 0 0 4px #070202;
 }
 
 .buttonCard {

@@ -15,10 +15,10 @@ gitButton.addEventListener('mouseout', function() {
 
 
 function downloadPdf() {
-    var pdfUrl = '/tools/pdf/test.pdf';
+    var pdfUrl = '/tools/pdf/FigueiraThibautCV.pdf';
     var a = document.createElement('a');
     a.href = pdfUrl;
-    a.download = 'test.pdf';
+    a.download = 'FigueiraThibautCV.pdf';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);

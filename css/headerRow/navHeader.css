@@ -25,6 +25,12 @@
     
 }
 
+.listHeader2 {
+    display: inline;
+    text-decoration: none;
+    
+}
+
 a {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;

@@ -53,7 +53,14 @@ cardTxt {
     display: none;
 }
 
+.card:hover .cardContent {
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) for darkness */
+}
+
+
 .card:hover {
+
     cardTxt {
         opacity: 1;
         

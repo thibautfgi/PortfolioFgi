@@ -14,3 +14,12 @@ gitButton.addEventListener('mouseout', function() {
 });
 
 
+function downloadPdf() {
+    var pdfUrl = '/tools/pdf/test.pdf';
+    var a = document.createElement('a');
+    a.href = pdfUrl;
+    a.download = 'test.pdf';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+}

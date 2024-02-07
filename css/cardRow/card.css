@@ -62,11 +62,13 @@ cardTxt {
 .card:hover {
 
     cardTxt {
+        transition: 0.5s;
         opacity: 1;
         
     }
     
     cardTxtTitle {
+        transition: 0.5s;
         opacity: 0;
     }
 }

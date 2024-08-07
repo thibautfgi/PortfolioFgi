@@ -1,0 +1,57 @@
+.buttonHeader {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color:chocolate;
+    border-radius: 6px;
+    
+}
+
+.buttonHeader:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.buttonNav {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color:chocolate;
+    border-radius: 6px;
+    margin-left: 10px;
+
+}
+
+.buttonNav:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/* TEL ADAPTATION  */
+@media only screen and (max-width: 768px) {
+
+
+.buttonHeader {
+margin-left: 60px;
+}
+  
+.buttonHiden{
+display:none;
+}
+
+
+.buttonContainer {
+    justify-content: flex-end;
+}
+
+
+
+
+}

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: antiquewhite;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("/fonts/JosephinSans/JosefinSans-VariableFont_wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+myTxt {
+    font-size: 20px;
+
+}
+
+myTxtMaj {
+    color: chocolate;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+myTxtWork {
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+myTxtWork2 {
+    color: chocolate;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+}
+
+
+
+smallTitle {
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+logoTitle {
+    color:chocolate;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+
+
+logoTitleHide {
+    color:chocolate;
+    font-size: 18px;
+    font-weight: bold;
+    display: contents;
+}
+
+introTxtCadre {
+    font-size: 18px;
+}
+
+
+
+txtCv {
+    position: relative;
+    
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    body{
+        font-size: 16px;
+    }
+
+    introTxtCadre {
+        font-size: 18px;
+    }
+
+    logoTitle {
+        display: contents;
+
+    }
+
+    logoTitleHide {
+        display: none;
+    }
+
+    myTxtMaj {
+        font-size: 30px ;
+    }
+}

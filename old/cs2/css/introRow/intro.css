@@ -1,0 +1,89 @@
+.msgIntro {
+    background-color: wheat;
+    padding-top: 5px;
+    border-radius: 6px;
+    size: 16px;
+
+}
+
+
+.containerIntro {
+
+    margin-bottom: 50px;
+  }
+  
+
+
+
+#myImg {
+    border: solid;
+    border-radius: 50%;
+    border-color: rgb(6, 101, 6);
+    position: static;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 125px;
+}
+
+
+#myImg2 {
+    border: solid;
+    border-radius: 50%;
+    border-color: rgb(6, 101, 6);
+    display: flex;
+    position: static;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+
+.introRow {
+    margin-top: 30px;
+}
+
+#myImgLeft {
+    
+    border: solid;
+    border-radius: 50%;
+    border-color: chocolate;
+    height: 125px;
+    width: 125px;
+
+}
+
+
+
+.buttonIntro {
+    color: wheat;
+    border: none;
+    background-color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.buttonIntro:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    #myImg {
+        size: 80%;
+        height: 100px;
+        width: 100px;
+    }
+    
+    
+    
+    }

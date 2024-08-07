@@ -1,0 +1,21 @@
+
+
+
+.buttonCv {
+    border: none;
+    height: 40px;
+    width: 40px;
+    background-color:chocolate;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+.buttonCv:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.buttonCv i {
+    font-size: 25px; /* Adjust the font size for a bigger icon */
+}

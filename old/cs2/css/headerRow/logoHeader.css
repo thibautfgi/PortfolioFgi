@@ -1,0 +1,21 @@
+.logo {
+    text-decoration: none;
+    display: flex   ;
+    justify-content: end;
+}
+
+.imgLogo {
+    width:25px;
+    height:25px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .logo {
+        justify-content: start;
+    }
+}

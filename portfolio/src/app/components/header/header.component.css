@@ -1,12 +1,12 @@
 
 
-.myHeader {
+.stickyHeader {
 
-    position: sticky;
+    position: sticky; /* rend sticky le header */
     top: 0;
-    padding: 6px 12px;
+    padding: 6px 12px; /* la grosseur du header */
     background-color:rgba(245, 222, 179, 0.7);
-    backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px); /* le background en blur  */
     z-index: 2;
     
 }
@@ -16,143 +16,48 @@
 
 
 .listHeader {
-    margin: 1%;
-    display: inline;
-    text-decoration: none;
-    
-}
-
-.listHeader2 {
-    display: inline;
-    text-decoration: none;
-    
-}
-
-a {
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
-    color:chocolate;
-    size: 20px;
-    
-}
-
-a:hover {
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 3px;
+    margin: 8px;
+    display: inline;  
 }
 
 
-b {
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
-    color:chocolate;
-    size: 20px;
-    
-}
-
-c {
-    color: rgb(113, 113, 214);
-    position: initial;
-}
-
-c:hover {
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 3px;
-}
 
 
-d {
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
-    color:chocolate;
-    size: 20px;
-    
-}
-
-d :hover {
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 3px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 
 
-.hover-class {
-    color: black;
-}
 
-.navContainer {
-    display: block;
-}
 
-.buttonHiden {
-    display: none;
-}
+
+
+
 
 
 
 
 .logo {
-    text-decoration: none;
-    display: flex   ;
-    justify-content: end;
+    text-decoration: none; /* n'affiche pas les deco propore au listes, ici : point */
+    display: flex   ; /* permet de placer l'img a l'endroit voulu */ 
+    justify-content: end; /* place l'img a la fin de la col */
 }
 
 .imgLogo {
     width:25px;
     height:25px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-
-
-@media only screen and (max-width: 768px) {
-
-    .logo {
-        justify-content: start;
-    }
-}
-
-.containerMain {
-    
-}
-
-
-.myHeader {
-
-    position: sticky;
-    top: 0;
-    padding: 6px 12px;
-    background-color:rgba(245, 222, 179, 0.7);
-    backdrop-filter: blur(6px);
-    z-index: 2;
-    
+    object-fit: cover; /* rapproche l'img   */
+    border-radius: 50%;  /* img ronde  */
 }
 
 
 
 
 
-.listHeader {
-    margin: 1%;
-    display: inline;
-    text-decoration: none;
-    
-}
 
-.listHeader2 {
-    display: inline;
-    text-decoration: none;
-    
-}
+
+
+
+
+
+
 
 a {
     font-family: 'Josefin Sans', sans-serif;
@@ -177,65 +82,31 @@ b {
     
 }
 
-c {
-    color: rgb(113, 113, 214);
-    position: initial;
-}
 
-c:hover {
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 3px;
-}
-
-
-d {
-    font-family: 'Josefin Sans', sans-serif;
-    text-decoration: none;
-    color:chocolate;
-    size: 20px;
-    
-}
-
-d :hover {
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 3px;
-}
-
-ul {
-    list-style: none;
+ul { /* permet de ne pas faire deborder cette liste*/
+    list-style: none; 
     padding: 0;
     margin: 0;
 }
 
 
-.hover-class {
-    color: black;
-}
-
-.navContainer {
-    display: block;
-}
-
-.buttonHiden {
-    display: none;
-}
 
 
-
-
-
-
-.buttonNav {
+.buttonHeader {
     border: none;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color:chocolate;
-    border-radius: 6px;
-    position: relative;
-    margin-left: 10px;
-
+    border-radius: 4px;
+    
 }
+
+.buttonHeader:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+
 
   

@@ -40,11 +40,21 @@
     justify-content: end; /* place l'img a la fin de la col */
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo:hover .imgLogo {
+    transform: rotate(45deg);
+
+}
+
 .imgLogo {
     width:25px;
     height:25px;
     object-fit: cover; /* rapproche l'img   */
     border-radius: 50%;  /* img ronde  */
+    transition: transform 0.5s; /* Add transition for smooth movement */
 }
 
 

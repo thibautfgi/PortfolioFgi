@@ -45,7 +45,7 @@
 }
 
 .logo:hover .imgLogo {
-    transform: rotate(45deg);
+    transform: rotate(30deg);
 
 }
 

@@ -1,3 +1,16 @@
 import { Routes } from '@angular/router';
+import { HomeComponent } from './components/home/home.component';
+import { WorksComponent } from './components/works/works.component';
+import { AboutComponent } from './components/about/about.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { NotfoundComponent } from './components/notfound/notfound.component';
 
-export const routes: Routes = [];
+
+export const routes: Routes = [
+    { path: '', component: HomeComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'works', component: WorksComponent },
+    { path: 'posts', component: PostsComponent },
+   // { path: '',   redirectTo: '/home', pathMatch: 'full' }, // permet la redirection si rien rentrer
+    { path: '**', component: NotfoundComponent},  // Wildcard route for a 404 page
+];

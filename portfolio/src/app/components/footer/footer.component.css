@@ -1,0 +1,40 @@
+
+  
+  .page {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+  
+  .main-content {
+    flex: 1; /* This makes the main content take up the remaining space */
+  }
+  
+  .footerContainer {
+    text-align: center;
+  }
+  
+  .footer {
+    padding: 10px 12px; /* Adjust padding to fit better */
+    background-color: wheat;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .buttonContact {
+    color: wheat;
+    border: none;
+    background-color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+  }
+  
+  .buttonContact:hover {
+    transform: scale(1.05); /* Use transform for scaling */
+    transition: transform 0.5s;
+  }
+  

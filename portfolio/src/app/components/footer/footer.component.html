@@ -1,1 +1,33 @@
-<p>footer works!</p>
+<div class="page">
+    <div class="main-content">
+      <router-outlet></router-outlet>
+    </div>
+  
+    <!-- Footer row Start -->
+    <div class="footerContainer">
+      <div class="container-fluid">
+        <div class="pt-4 text-center">
+          <button class="buttonContact"
+            routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">
+            Contact me >
+          </button>
+        </div>
+  
+        <div class="row text-center pt-2">
+          <div class="col-3"></div>
+
+          <div class="col-6">
+            <div class="footer">
+              © 2024 Figueira Thibaut. All right reserved.
+            </div>
+            
+          </div>
+          <div class="col-3"></div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer row END -->
+  </div>
+  

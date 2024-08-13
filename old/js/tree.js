@@ -31,7 +31,7 @@ const loader = new GLTFLoader();
 let model;
 
 loader.load(
-  '/tools/models/tibo/thibault.gltf',
+  '/old/tools/models/tibo/thibault.gltf',
   (gltf) => {
     model = gltf.scene;
     // Enable shadows for each mesh in the model

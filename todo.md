@@ -1,4 +1,1 @@
-Alligner les dtxt de la bio
-
-Regler la taille en mobile des card = work
-
+repartir mieux header, acutelement 4/4/4 visée = 5/2/5

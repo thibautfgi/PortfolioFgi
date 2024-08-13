@@ -28,8 +28,8 @@ export class SceneComponent implements AfterViewInit, OnDestroy {
       this.initThreeJS();
       this.animate();
 
-      this.resizeListener = () => this.updateThing();
-      window.addEventListener('resize', this.resizeListener);
+      // this.resizeListener = () => this.updateThing();
+      // window.addEventListener('resize', this.resizeListener);
 
       // Wait for application to be stable before proceeding
       this.appRef.isStable.pipe(
@@ -59,10 +59,13 @@ export class SceneComponent implements AfterViewInit, OnDestroy {
       alpha: true,
       antialias: true
     });
+    this.renderer.toneMapping = THREE.ACESFilmicToneMapping; // Apply tone mapping
+    this.renderer.toneMappingExposure = 1.5; // Adjust exposure
     this.renderer.shadowMap.enabled = true;
     const container = this.containerRef.nativeElement;
     container.appendChild(this.renderer.domElement);
-    this.renderer.setSize(650, 300);
+    this.renderer.setSize(500, 300);
+    
 
     // Controls
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
@@ -88,15 +91,16 @@ export class SceneComponent implements AfterViewInit, OnDestroy {
       }
     );
 
+    
+
     // Lights
     this.addLights();
 
-    // Resize
-    this.updateThing();
+
   }
 
   private addLights() {
-    const directionalLight1 = new THREE.DirectionalLight(0xFFFC9C, 1.1);
+    const directionalLight1 = new THREE.DirectionalLight(0xFFFC9C, 1.5);
     directionalLight1.position.set(-2.6864, 3.78423, 0.368122);
     directionalLight1.rotation.set(-33.8579, 29.4209, -13.2805);
     directionalLight1.shadow.bias = -0.0001;
@@ -118,19 +122,7 @@ export class SceneComponent implements AfterViewInit, OnDestroy {
     this.scene.add(directionalLight3);
   }
 
-  private updateThing = () => {
-    if (typeof window !== 'undefined') {
-      const thresholdWidth = 768; // in px
 
-      if (window.innerWidth < thresholdWidth) {
-        this.camera.position.set(0, 3, 4);
-        this.renderer.setSize(250, 250);
-      } else {
-        this.camera.position.set(0, 3, 4);
-        this.renderer.setSize(550, 300);
-      }
-    }
-  };
 
   private animate = () => {
     requestAnimationFrame(this.animate);

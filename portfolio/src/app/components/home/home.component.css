@@ -78,3 +78,48 @@
 }
 
 
+.myTxtMaj {
+    color: chocolate;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.myTxt {
+    font-size: 20px;
+
+}
+
+
+.myTxtTitle {
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.myParagraph {
+    text-indent: 2em; /* alinea */
+}
+
+.hyperlink {
+    color:chocolate;
+    text-decoration: none; /* Remove underline */
+}
+
+.hyperlink:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}
+
+.webLink a {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.webLink a:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}

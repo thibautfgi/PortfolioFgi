@@ -51,8 +51,8 @@ export class SceneComponent implements AfterViewInit, OnDestroy {
   private initThreeJS() {
     // Scene
     this.scene = new THREE.Scene();
-    this.camera = new THREE.PerspectiveCamera(80, window.innerWidth / window.innerHeight, 1, 1000);
-    this.camera.position.set(0, 3, 4);
+    this.camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
+    this.camera.position.set(1, 3, 4);
 
     // Renderer
     this.renderer = new THREE.WebGLRenderer({

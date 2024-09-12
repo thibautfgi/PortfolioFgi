@@ -28,7 +28,7 @@
 }
 
 
-.buttonContainer {
+.buttonContainer { 
     display: flex;
     justify-content: flex-start;
 }

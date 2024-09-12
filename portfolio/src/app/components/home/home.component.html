@@ -1,22 +1,6 @@
 <div class="container-fluid">
 
-    <div class="row"> <!-- ROW1 START -->
-    
-    
-        <div class="col-4"></div>
-    
-    
-    
-        <div class="col-4">
-            <app-scene></app-scene>
-        </div>
-    
-    
-    
-        <div class="col-4"></div>
-    
-    
-    </div> <!-- ROW1 END -->
+
 
     
 
@@ -60,11 +44,11 @@
                         </div>
 
                         <div class="col-12 col-md-8">
-                            <div class="col">
-                                <h1>Figueira Thibaut</h1>
+                            <div class="col myTxtMaj">
+                                Figueira Thibaut
                             </div>
-                            <div class="col">
-                                <h1>Student, mountain lover, artist, runner.</h1>
+                            <div class="col myTxt">
+                                Student, mountain lover, artist, runner.
                             </div>
                         </div>
 
@@ -87,19 +71,24 @@
             </div>
 
             <div class="col-12 col-md-4 ">
-                <div class=" pb-2">
-                    <h1>Work</h1>
+                <div class=" pb-2 myTxtTitle">
+                    Work
                 </div>
                 
-                <p>&emsp; Hello and welcome, my name is Thibaut and i am a French student from Paris. I have a passion
+                <div class="myParagraph">
+                    Hello and welcome, my name is Thibaut and I am a French student from Paris. I have a passion
                     for building digital products and discovering new tech. I aim to become a full stack developer to
                     make my own projects from the front end to the back end. When I am not coding, I love hiking in the
                     mountains of France or exploring all sorts of art. Currently, I am building my
-                    <a href="https://github.com/justachips/PortfolioFgi" class="hyperlink">website</a>, have a
-                    look !
-                </p>
-                <p></p>
-                <button class="buttonIntro" onclick="window.location.href='old/html/work.html'">My Portfolio ></button>
+                    <a href="https://github.com/justachips/PortfolioFgi" class="hyperlink" >website</a>, have a
+                    look!
+                </div>
+
+                <button class="buttonIntro" routerLink="/works" routerLinkActive="active" ariaCurrentWhenActive="page">
+                    My Portfolio >
+                </button>
+                
+                
             </div>
 
 
@@ -117,22 +106,22 @@
 
             <div class="col-12 col-md-4  ">
                 
-                <div class="pt-2 pb-2">
-                    <h1> Bio </h1>
+                <div class="pt-2 pb-2 myTxtTitle">
+                    Bio
                 </div>
                 
                 <div class="row">
-                    <div class="col-2 col-md-1">
-                        <h1>1997</h1>
+                    <div class="col-2 col-md-1 fw-bold">
+                        1997
                     </div>
-                    <div class="col-10 col-md-11">
+                    <div class="col-10 col-md-11 ">
                     Born in Paris, France.
                     </div>
                 </div>
 
                 <div class="row pt-2">
-                    <div class="col-2 col-md-1 ">
-                        <h1>2016</h1>
+                    <div class="col-2 col-md-1 fw-bold">
+                        2016
                     </div>
                     <div class="col-10 col-md-11">
                         Bac S Spécialité SVT, Lycée Flora Tristan, Noisy le Grand.
@@ -140,8 +129,8 @@
                 </div>
 
                 <div class="row pt-2">
-                    <div class="col-2 col-md-1 ">
-                        <h1>2020</h1>
+                    <div class="col-2 col-md-1 fw-bold">
+                        2020
                     </div>
                     <div class="col-10 col-md-11">
                         Licence Cinéma & Audiovisuelle, Université Sorbonne Nouvelle, Paris. 
@@ -149,10 +138,10 @@
                 </div>
 
                 <div class="row pt-2">
-                    <div class="col-2 col-md-3 ">
-                        <h1>2022 to present</h1>
+                    <div class="col-2 col-md-4 fw-bold">
+                        2022 to present
                     </div>
-                    <div class="col-10 col-md-9">
+                    <div class="col-10 col-md-8">
                         Computer scientists studies, Ynov, Paris.
                     </div>
                 </div>
@@ -172,11 +161,11 @@
 
             <div class="col-12 col-md-4 pt-3">
 
-                <div class="pt-2 pb-2">
-                    <h1> I love </h1>
+                <div class="pt-2 pb-2 myTxtTitle">
+                    I love
                 </div>
                 
-                <p>&emsp; Hiking, Nature, Art, <a href="/old/html/photo.html" class="hyperlink">Photography</a>, Running, Climbing, Chill Music, Movie, SF & Fantasy Books.  </p>
+                <p>&emsp; Hiking, Nature, Art, Tech, Photography, Running, Climbing, Chill Music, Movie, SF & Fantasy Books.  </p>
 
             </div>
 
@@ -194,48 +183,49 @@
 
             <div class="col-12 col-md-4 pt-3">
 
-                <div class="pt-2 pb-2">
-                    <h1> Web </h1>
+                <div class="pt-2 pb-2 myTxtTitle">
+                    Web
                 </div>
 
-                <div class="row">
+                <div class="row m-2">
 
-                    <div class="col-6 pt-2">
-                        &emsp;
-                        <li class="listHeader"><a href="https://github.com/justachips">
-                            <i class="fa-brands fa-square-github buttonGit" style="color: chocolate;"></i>
+                    <div class="col-6 pt-2 webLink">
+                        <a href="https://github.com/thibautfgi">
+                            <i class="fa-brands fa-square-github" style="color: chocolate;"></i>
                             GitHub
-                        </a></li> 
+                        </a>
                     </div>
-
-                    <div class="col-6 pt-2 text-end">
-                        <li class="listHeader"><a href="https://ytrack.learn.ynov.com/git/fthibaut">
+                
+                    <div class="col-6 pt-2 text-end webLink">
+                        
+                        <a href="https://ytrack.learn.ynov.com/git/fthibaut">
                             <i class="fa-brands fa-square-git" style="color: chocolate;"></i>
                             GitTea
-                        </a></li>
+                        </a>
                     </div>
-
-                    <div class="col-6 pt-2 ">
-                        &emsp; 
-                        <li class="listHeader"><a href="https://www.linkedin.com/in/thibaut-figueira-9a2112133/">
+                
+                    <div class="col-6 pt-2 webLink">
+                        
+                        <a href="https://www.linkedin.com/in/thibaut-figueira-9a2112133/">
                             <i class="fa-brands fa-linkedin" style="color: chocolate;"></i>
                             Linkedin
-                        </a></li>
+                        </a>
                     </div>
-
-                    <div class="col-6 pt-2 text-end">
-                        <li class="listHeader"><a href="/old/html/about.html">
+                
+                    <div class="col-6 pt-2 text-end webLink">
+                        <a routerLink="/works" routerLinkActive="active" ariaCurrentWhenActive="page">
                             <i class="fa-solid fa-envelope" style="color: chocolate;"></i>
                             &nbsp;Email
-                        </a></li>
+                        </a>
                     </div>
-
+                
                 </div>
+                
             </div>
 
             <div class="col-4 ">
             </div>
 
-        </div> <!-- WEB row END -->
+        </div> <!-- Mylink row END -->
 
 </div> 

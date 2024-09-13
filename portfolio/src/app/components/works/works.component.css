@@ -1,0 +1,79 @@
+.card {
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.cardImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.cardContent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 25px;
+    padding: 1.25px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(1px);
+}
+
+.cardTxtTitle {
+    font-size: 26px;
+    position: relative;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    margin-top: auto;
+    text-shadow: 0 0 8px #000000;
+}
+
+.cardTxt {
+    font-size: 18px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1.0s ease-in-out;
+    text-shadow: 0 0 8px #070202;
+}
+
+.buttonCard {
+    display: none;
+}
+
+.card:hover .cardContent {
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .cardTxt {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.card:hover .cardTxtTitle {
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.msgIntro {
+    background-color: wheat;
+    padding-top: 5px;
+    border-radius: 6px;
+}
+
+
+.myTxtWork2 {
+    color: chocolate;
+    font-size: 24px;
+    font-weight: bold;
+    
+
+}

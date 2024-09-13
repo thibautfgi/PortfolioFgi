@@ -60,3 +60,28 @@
     size: 16px;
 
 }
+
+
+.buttonIntro {
+    color: wheat;
+    border: none;
+    background-color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.buttonIntro:hover {
+    scale: 1.05;
+    transition: 0.5s;
+}
+
+.myTxtWork {
+    color: chocolate;
+    font-size: 24px;
+    font-weight: bold;
+    
+}

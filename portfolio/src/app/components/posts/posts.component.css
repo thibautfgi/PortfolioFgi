@@ -1,0 +1,50 @@
+.msgIntro {
+    background-color: wheat;
+    padding-top: 5px;
+    border-radius: 6px;
+    size: 16px;
+
+}
+
+.myTxtTitle {
+    color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.myTxtTitle:hover {
+    cursor: pointer;
+
+    text-decoration: underline;
+}
+
+.myParagraph {
+    text-indent: 2em; /* alinea */
+}
+
+
+.hyperlink {
+    color:chocolate;
+    text-decoration: none; /* Remove underline */
+}
+
+.hyperlink:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}
+
+
+.myImg {
+    border: solid;
+    border-color: rgb(6, 101, 6);
+    height: 500px;
+    width: 500px;
+}
+
+.myImgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
